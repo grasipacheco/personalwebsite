@@ -7,29 +7,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="navigation__menu">
-        <ul>
-          <li class="navigation__link">
-            <a href="#home">Home</a>
-          </li>
-          <li class="navigation__link">
-            <a href="#about">About</a>
-          </li>
-          <li class="navigation__link">
-            <a href="#skills">Skills</a>
-          </li>
-          <li class="navigation__link">
-            <a href="#biography">Biography</a>
-          </li>
-          <li class="navigation__link">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav id="nav">
+      <button>
+        <p><a href="#about-me"></a>About me</p>
+      </button>
+      <button>
+        <p><a href="#contact"></a>Contact</p>
+      </button>
+    </nav>
     <main>
-      <article type="article" id="home">
+      <article id="home">
         <h2>Home</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed orci
@@ -49,7 +36,7 @@
           />
         </figure>
       </article>
-      <article type="article" id="about-me">
+      <article id="about-me">
         <h2>About me</h2>
         <p>
           Nulla viverra auctor fermentum. Nullam at volutpat urna. Aliquam
@@ -74,17 +61,6 @@
           A random gif, because I would like to maintain my privacy and let my
           code speak for me, instead of images.
         </figcaption>
-        <section>
-          <h2>Skills</h2>
-          <ul class="skills__list" role="list">
-            <li class="skills__list-item">HTML</li>
-            <li class="skills__list-item">CSS</li>
-            <li class="skills__list-item">JavaScript</li>
-            <li class="skills__list-item">React</li>
-            <li class="skills__list-item">Eating</li>
-            <li class="skills__list-item">Sleeping</li>
-          </ul>
-        </section>
       </article>
       <article id="contacts">
         <h2>Contacts</h2>

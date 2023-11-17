@@ -9,27 +9,44 @@ body {
   background-color: LemonChiffon;
 }
 
-h1 {
-  line-height: 1.5rem;
+.header {
+  padding: 20px;
+  color: #252629;
+  background-color: #f3f5f9;
 }
 
-#home,
-#aboutme {
-  background-color: white;
+.navigation__menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link {
+  background-color: hotpink;
+  color: LemonChiffon;
+  padding: 5px 14px;
+  border-radius: 5px;
+}
+
+article {
+  background-color: rosybrown;
   margin-top: 0;
   padding: 10px;
   text-align: center;
   /* your solution */
 }
 
-section {
-  background-color: white;
-  padding: 20px;
-  margin: 10px;
-  border-left: 5px solid orange;
-  /* your solution */
+.skills__list {
+  list-style: none;
+  padding-left: 0px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.favourites {
-  border-left: 5px solid gold;
+.skills__list-item {
+  padding: 10px;
+  background-color: #252629;
+  color: #ffffff;
+  border-radius: 10px;
 }
